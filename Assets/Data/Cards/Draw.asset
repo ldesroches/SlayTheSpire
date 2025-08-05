@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d45fcf67eb91ffba3da7b267c88752, type: 3}
   m_Name: Draw
   m_EditorClassIdentifier: 
-  <Description>k__BackingField: 
-  <Mana>k__BackingField: 0
-  <Image>k__BackingField: {fileID: 0}
-  <Effects>k__BackingField: []
+  <Description>k__BackingField: Draw 2 cards.
+  <Mana>k__BackingField: 1
+  <Image>k__BackingField: {fileID: 21300000, guid: 4f95327da89e6f7a1a2971e8d2436a6d, type: 3}
+  <Effects>k__BackingField:
+  - rid: 3760774097831461126
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 3760774097831461126
+      type: {class: DrawCardsEffect, ns: , asm: Assembly-CSharp}
+      data:
+        drawAmount: 2
